@@ -25,6 +25,7 @@ function openmenu() {
 function closemenu() {
   sidemenu.style.right = "-200px";
 }
+
 // const scriptURL =
 //   "https://script.google.com/macros/s/AKfycbzqhNrqW6yA0htjV3UfyeC0b9vwoxSldaIaA747mAy2QrqiW512fZ1GF02Z3yC-FAOV/exec";
 // const form = document.forms["submit-to-google-sheet"];

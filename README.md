@@ -1,2 +1,4 @@
-# jash_personal_portfolio
-This is a demo portfolio
+# About this Project - Portfolio
+
+
+## Steps to launch 
