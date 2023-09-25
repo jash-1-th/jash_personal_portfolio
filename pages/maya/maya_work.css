@@ -58,7 +58,7 @@ p{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     grid-gap: 40px;
-    margin: 50px;
+    margin: 50px 30px;
 }
 
 .services-list div{
