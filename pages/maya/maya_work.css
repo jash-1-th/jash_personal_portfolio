@@ -1,13 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
-    background-color: #dde4d6ef;
-}
+    background: #080808;
+    color: #fff;
 
+}
  /* NAVIGATION BAR  */
 
 nav{  
@@ -34,7 +40,7 @@ nav a {
     flex-grow: 1; 
     text-align: center;
     text-decoration: none;
-    font-family: serif;
+   
     color: #fff;
 }
 
@@ -46,13 +52,9 @@ nav a {
 
 .subtitle {
    text-align: center;
-   font-family: serif;
-   font-size: 40px 30px;
+   font-size:40px;
 }
 
-p{
-    font-family: serif;
-}
 .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
@@ -111,6 +113,7 @@ p{
 .work-list iframe {
    
     margin: 30px 40px 0; 
+    border: 2px solid white;
 }
 
 
