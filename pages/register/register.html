@@ -10,12 +10,12 @@
 <body>
     <div class="conatiner">
         <div class="form-box">
-            <h1>SIGN UP</h1>
+            <h1 id="title">SIGN UP</h1>
             <form>
 
                 <div class="input-group">
 
-                    <div class="input-field">
+                    <div class="input-field" id="nameField">
                         <i class="fa-solid fa-user"></i>
                         <input type="name" placeholder="Name">
                     </div>
@@ -30,10 +30,19 @@
                         <input type="password" placeholder="Password">
                     </div>
 
+                    <p>Lost password <a href="#">Click here!</a></p>
 
                 </div>
+
+                
+                <div class="btn-field">
+                    <button type="button" id="upbtn">Sign Up</button>
+                    <button type="button" id="inbtn" class="disable">Sign In</button>
+                </div>
+
             </form>
         </div>
     </div>
+    <script src="register.js"></script>
 </body>
 </html>
